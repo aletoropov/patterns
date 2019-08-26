@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Шаблон - Singleton
+ * 
+ * @author Toropov Alexandr <toropovsite@yandex.ru>
+ */
+
 class Singleton
 {
     static private $self = null;
