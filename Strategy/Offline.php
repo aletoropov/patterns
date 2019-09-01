@@ -1,11 +1,9 @@
 <?php
 
-include 'Payment.php';
-
-class Offline implements Payment
+class Offline implements I_Pay
 {
     public function pay($sum)
     {
-        echo 'Оплата offline';
+        echo 'Оплата Offline<br>';
     }
 }

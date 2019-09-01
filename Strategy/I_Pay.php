@@ -5,7 +5,7 @@
  * 
  * @author Alexandr Toropov <toropovsite@yandex.ru>
  */
-interface Payment 
+interface I_Pay 
 {
     public function pay($sum);
 }

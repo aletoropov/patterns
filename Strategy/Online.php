@@ -1,11 +1,9 @@
 <?php
 
-include 'Payment.php';
-
-class Online implements Payment
+class Online implements I_Pay
 {
     public function pay($sum)
     {
-        echo 'Оплата Online';
+        echo 'Оплата Online<br>';
     }
 }

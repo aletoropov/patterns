@@ -1,9 +1,10 @@
 <?php
 
+include('I_Pay.php');
 include 'Offline.php';
 include 'Online.php';
 
-class Pay
+class Shop
 {
     public function cardPay($sum) 
     {
@@ -19,5 +20,7 @@ class Pay
     }
 }
 
-$shop = new Pay();
-$shop->cardPay(400);
+$shop = new Shop();
+$shop->cardPay(500);
+$shop->cardPay(6000);
+$shop->cardPay(4000);
